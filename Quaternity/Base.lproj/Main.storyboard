@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="XDViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" id="rvi-nv-whi" userLabel="quaternity container">
+                                <rect key="frame" x="-408" y="-284" width="1136" height="1136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" id="o68-4g-3N1" userLabel="left top">
+                                        <rect key="frame" x="0.0" y="0.0" width="568" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default" id="Df6-2g-sbH">
+                                                <rect key="frame" x="408" y="284" width="320" height="568"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.78823530669999997" green="0.78039217000000005" blue="0.77647060160000003" alpha="1" colorSpace="deviceRGB"/>
+                                    </view>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" id="bp4-Gy-Gfi" userLabel="right top">
+                                        <rect key="frame" x="568" y="0.0" width="568" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="res1.jpg" id="vly-ET-KIH">
+                                                <rect key="frame" x="-160" y="284" width="320" height="568"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.9883943718452578" blue="0.16930934838118472" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.78823530669999997" green="0.78039217000000005" blue="0.77647060160000003" alpha="1" colorSpace="deviceRGB"/>
+                                    </view>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" id="CYr-pq-gfR" userLabel="left bottom">
+                                        <rect key="frame" x="0.0" y="568" width="568" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="res2.jpg" id="teW-Lv-gOf">
+                                                <rect key="frame" x="408" y="-284" width="320" height="568"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.78823530669999997" green="0.78039217000000005" blue="0.77647060160000003" alpha="1" colorSpace="deviceRGB"/>
+                                    </view>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" id="lzb-3U-ASs" userLabel="right bottom">
+                                        <rect key="frame" x="568" y="568" width="568" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="res3.jpg" id="eQr-Bq-Yaz">
+                                                <rect key="frame" x="-160" y="-284" width="320" height="568"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.2430428832" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.78823530669999997" green="0.78039217000000005" blue="0.77647060160000003" alpha="1" colorSpace="deviceRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="pQuaternityContainer" destination="rvi-nv-whi" id="So4-7w-Qyd"/>
+                        <outletCollection property="pContainers" destination="o68-4g-3N1" id="Bhj-EX-e9Q"/>
+                        <outletCollection property="pContainers" destination="bp4-Gy-Gfi" id="psR-7G-RVn"/>
+                        <outletCollection property="pContainers" destination="CYr-pq-gfR" id="1X5-0F-HHK"/>
+                        <outletCollection property="pContainers" destination="lzb-3U-ASs" id="9s3-j6-qiU"/>
+                        <outletCollection property="pContentViews" destination="Df6-2g-sbH" id="TR0-Hb-tQz"/>
+                        <outletCollection property="pContentViews" destination="vly-ET-KIH" id="gk4-Ca-uyL"/>
+                        <outletCollection property="pContentViews" destination="teW-Lv-gOf" id="Yws-MY-FcY"/>
+                        <outletCollection property="pContentViews" destination="eQr-Bq-Yaz" id="DSR-4S-0CF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Default" width="320" height="480"/>
+        <image name="res1.jpg" width="640" height="1136"/>
+        <image name="res2.jpg" width="640" height="1136"/>
+        <image name="res3.jpg" width="640" height="1136"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
